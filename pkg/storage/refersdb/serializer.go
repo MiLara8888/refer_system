@@ -10,7 +10,7 @@ import (
 type RefSubsirbeSerializer struct {
 	ID     int64             `json:"id"`
 	Email  string            `json:"email"`
-	RefKey string             `json:"exp_date"`
+	RefKey string             `json:"code"`
 	UserId RefCodeSerializer `json:"ref_key"`
 }
 
