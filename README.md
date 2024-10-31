@@ -170,5 +170,7 @@ DB_NAME=
 DB_SCHEMA=
 
 
-локальный запуск проекта:
+для локального запуска:
+собрать бд postgresql
+заполнить .env
 $ make refers-run
