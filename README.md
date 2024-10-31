@@ -171,6 +171,9 @@ DB_SCHEMA=
 
 
 для локального запуска:
+
 собрать бд postgresql
+
 заполнить .env
+
 $ make refers-run
